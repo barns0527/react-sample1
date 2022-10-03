@@ -38,7 +38,7 @@ export const InputForm = ({ taskList, setTaskList }) => {
       <form onSubmit={addTask}>
         <input type="text" onChange={handleChange} value={inputText} />
         <button onClick={addTask}>         
-          <i class="fas fa-plus-circle"></i>
+          <i className="fas fa-plus-circle"></i>
         </button>
       </form>
     </div>
